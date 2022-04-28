@@ -1,0 +1,80 @@
+header{
+    background-color:#42354C;
+    color:#FFFFFF;
+    padding: 3px;
+    align-content: space-between;
+}
+
+body {
+     background-image:url("images/tech.jpg" );
+     
+     background-attachment: fixed;
+     background-size: 100px;
+  }
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.headerContenedor{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.redes{
+    text-align: center;  
+}
+
+.miNombre{
+    text-align: right;  
+}
+
+.container{
+    display: flexbox;
+}
+
+.secctionPaisaje{
+    border: 1px solid;
+    border-color: lightgray;
+    border-radius: 20px;  
+    background-color: hsl(240, 1%, 20%);
+    color: #efefef;  
+}
+
+.profile{
+    height: 190px;  
+    width: 190px;
+    border-radius: 50%;
+    border: 1px solid;
+}
+
+img {
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 15%;
+}
+
+.miniPerfil{
+    padding: 2%;
+
+}
+
+.paisaje{
+    max-width: 100%;
+    max-height: 80%;
+}
+
+.secction{
+    background-color: hsl(240, 1%, 20%);
+    color:white;
+    border: 1px solid;
+    border-color: lightgray;
+    border-radius: 20px;
+    padding: 2%
+    
+   
+}
+
+  
+  
